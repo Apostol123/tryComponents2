@@ -3,13 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2AF85D71C9D3429CAAA448BA83F2A1C9 /* Pods-ComponentsTry_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A54F07E1781B150EA28890D57E3F5E /* Pods-ComponentsTry_Example-dummy.m */; };
+		6D4E4A15248D3F2D005B3DF2 /* ComponentsTry-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC7622133D45400ECDB4457918993678 /* ComponentsTry-Info.plist */; };
+		6D4E4A17248D3F39005B3DF2 /* Pods-ComponentsTry_Example-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80B6FE670F531F1748459CFBE2F2B773 /* Pods-ComponentsTry_Example-Info.plist */; };
+		6D4E4A18248D3F3C005B3DF2 /* Pods-ComponentsTry_Tests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C755339FBA2BDE00F797D0A1FB4A5DDA /* Pods-ComponentsTry_Tests-Info.plist */; };
 		6D91EF5F248D27A6008BC200 /* ComponentsTry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91EF5E248D27A6008BC200 /* ComponentsTry.swift */; };
-		74AD9ED1D2595FA2C2A4C904158C5563 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		74AD9ED1D2595FA2C2A4C904158C5563 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; platformFilter = ios; };
 		75005A70D0C439DD02393D4ECEDC693E /* Pods-ComponentsTry_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FDD259BB28A88F1078C87C64E34F50 /* Pods-ComponentsTry_Tests-dummy.m */; };
 		8073CABCAB2647A2CE8C427DC68A6EC6 /* ComponentsTry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D188456C5596890515D94899578351A /* ComponentsTry-dummy.m */; };
 		B028E43051C3CE069F0BD9D36C7341EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -356,6 +359,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D4E4A17248D3F39005B3DF2 /* Pods-ComponentsTry_Example-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +367,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D4E4A18248D3F3C005B3DF2 /* Pods-ComponentsTry_Tests-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +375,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D4E4A15248D3F2D005B3DF2 /* ComponentsTry-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +442,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ComponentsTry_Example/Pods-ComponentsTry_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ComponentsTry_Example/Pods-ComponentsTry_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -469,7 +479,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ComponentsTry_Example/Pods-ComponentsTry_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ComponentsTry_Example/Pods-ComponentsTry_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -503,8 +517,12 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ComponentsTry/ComponentsTry-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ComponentsTry/ComponentsTry-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ComponentsTry/ComponentsTry.modulemap";
 				PRODUCT_MODULE_NAME = ComponentsTry;
 				PRODUCT_NAME = ComponentsTry;
@@ -536,7 +554,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ComponentsTry_Tests/Pods-ComponentsTry_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ComponentsTry_Tests/Pods-ComponentsTry_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -569,7 +591,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ComponentsTry_Tests/Pods-ComponentsTry_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ComponentsTry_Tests/Pods-ComponentsTry_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -639,7 +665,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -662,8 +689,12 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ComponentsTry/ComponentsTry-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ComponentsTry/ComponentsTry-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ComponentsTry/ComponentsTry.modulemap";
 				PRODUCT_MODULE_NAME = ComponentsTry;
 				PRODUCT_NAME = ComponentsTry;
