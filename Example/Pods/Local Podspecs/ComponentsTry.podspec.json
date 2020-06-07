@@ -1,0 +1,22 @@
+{
+  "name": "ComponentsTry",
+  "version": "0.1.0",
+  "summary": "A short description of ComponentsTry.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Apostol123/ComponentsTry",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Apostol123": "apostol516@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Apostol123/ComponentsTry.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ComponentsTry/Classes/**/*"
+}
