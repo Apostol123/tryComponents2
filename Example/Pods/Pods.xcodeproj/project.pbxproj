@@ -41,7 +41,6 @@
 
 /* Begin PBXFileReference section */
 		0F81F12128D714E0EDDDDED7313D5818 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		2ABE6E12BD88601C838B951E7FFAA33C /* Pods_ComponentsTry_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComponentsTry_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		305578AFEECE2246B211894235D48B0A /* Pods-ComponentsTry_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ComponentsTry_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		43512E649515BCB33966AB4358A48A90 /* Pods-ComponentsTry_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ComponentsTry_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,7 +64,6 @@
 		C7A54F07E1781B150EA28890D57E3F5E /* Pods-ComponentsTry_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ComponentsTry_Example-dummy.m"; sourceTree = "<group>"; };
 		CD2A3315002D73B47FA5A277845D46A9 /* ComponentsTry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ComponentsTry-umbrella.h"; sourceTree = "<group>"; };
 		D01C78ED6B59906581F52CB5E608970F /* ComponentsTry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ComponentsTry-prefix.pch"; sourceTree = "<group>"; };
-		D4DFD2E523F0E57C0D2F5FDDC047CBFB /* Pods_ComponentsTry_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComponentsTry_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81F7171243B375AAFBE63A7C9CAF0E6 /* Pods-ComponentsTry_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ComponentsTry_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D81FCDB1353F99462C4D0877CE1257AA /* Pods-ComponentsTry_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ComponentsTry_Example.modulemap"; sourceTree = "<group>"; };
 		E0FDD259BB28A88F1078C87C64E34F50 /* Pods-ComponentsTry_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ComponentsTry_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -107,8 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				8C04961326E1925381AE21C7E08E013C /* ComponentsTry.framework */,
-				D4DFD2E523F0E57C0D2F5FDDC047CBFB /* Pods_ComponentsTry_Example.framework */,
-				2ABE6E12BD88601C838B951E7FFAA33C /* Pods_ComponentsTry_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -280,7 +276,6 @@
 			);
 			name = "Pods-ComponentsTry_Tests";
 			productName = "Pods-ComponentsTry_Tests";
-			productReference = 2ABE6E12BD88601C838B951E7FFAA33C /* Pods_ComponentsTry_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8E6AE2FE759BC628408C51CE4F382A4B /* ComponentsTry */ = {
@@ -317,7 +312,6 @@
 			);
 			name = "Pods-ComponentsTry_Example";
 			productName = "Pods-ComponentsTry_Example";
-			productReference = D4DFD2E523F0E57C0D2F5FDDC047CBFB /* Pods_ComponentsTry_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -334,7 +328,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -776,7 +770,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
